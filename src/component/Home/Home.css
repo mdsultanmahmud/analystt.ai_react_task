@@ -1,0 +1,15 @@
+.details-btn{
+    padding: .5rem 1rem;
+    background-color: tomato;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all ease-in-out .4s;
+}
+.details-btn:hover{
+    background-color: black;
+    color: red;
+}
