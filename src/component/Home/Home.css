@@ -1,6 +1,40 @@
+.loader-container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: tomato;
+    margin: 2rem 0;
+}
+table{
+    background-color: black;
+    padding: 2rem;
+    width: 100%;
+    color: red;
+}
+table thead {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: tomato;
+}
+tr:nth-child(even){
+    background-color: white;
+    color: black;
+}
+table td{
+    padding: .4rem;
+    font-weight: 500;
+    border-right: 2px solid tomato;
+    font-size: 1.2rem;
+}
 .details-btn{
     padding: .5rem 1rem;
-    background-color: tomato;
+    background-color: green;
     border-radius: 10px;
     color: white;
     border: none;
@@ -8,8 +42,10 @@
     cursor: pointer;
     text-transform: uppercase;
     transition: all ease-in-out .4s;
+    border: 1px solid green;
 }
 .details-btn:hover{
     background-color: black;
     color: red;
+    
 }
